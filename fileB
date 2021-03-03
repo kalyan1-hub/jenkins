@@ -1,0 +1,23 @@
+git init . > to initialize the git--it will create one empty .git folder this is hidden folder 
+git status > to check the status
+git add . > adding files from working tree to staging area 
+git commit -m "first commit" > commit the changes from staging area to local repo
+git config --global user.name "name"
+git config --global user.email "email id"
+
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+
+git remote add origin repo url
+git push -u origin master 
+git branch nameof the branch --> to create branch
+git branch --> list the branhces
+git checkout branch name---> switch form one branch to another
+git merge--> merge the data from one branch to another
+git pull--> pulling the latest changes from remote repo to our local
+git fetch--> pulling the latest changes from remote repo and merging it to local
+git fetch= git pull+git merge
+git clone --> cloning the data from remote repo to local it will create existing repo
+git diff --> it will resolve the merge conflicts
+
+
